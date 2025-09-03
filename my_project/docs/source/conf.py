@@ -29,5 +29,15 @@ exclude_patterns = []
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = 'alabaster'
+# Use the Read the Docs theme
+html_theme = "sphinx_rtd_theme"
+html_baseurl = "https://ahsanyusob.github.io/cpp_sphinx_test/"
+
+# Optional: theme-specific options
+html_theme_options = {
+    'collapse_navigation': False,  # keep sidebar sections expanded
+    'navigation_depth': 4,         # how many levels in the sidebar
+    "canonical_url": "https://ahsanyusob.github.io/cpp_sphinx_test/",
+    "display_version": True,
+}
 html_static_path = ['_static']
