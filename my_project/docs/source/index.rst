@@ -1,5 +1,5 @@
 Welcome to My C++ Doxygen+Breathe+Sphinx Project documentation
-===================================================
+==============================================================
 
 This is a demo project.
 
@@ -7,11 +7,6 @@ This is a demo project.
    :maxdepth: 2
    :caption: Contents:
 
-API Reference
-=============
-
-.. doxygenclass:: Car
-   :members:
-   :protected-members:
-   :private-members:
+   cpp_api
+   py_api
 

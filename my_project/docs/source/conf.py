@@ -6,6 +6,9 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
+import sys, os
+sys.path.insert(0, os.path.abspath('../../py_module'))
+
 project = 'My C++ Doxygen+Breathe+Sphinx Project'
 copyright = '2025, Ahsan Yusob'
 author = 'Ahsan Yusob'
@@ -13,7 +16,7 @@ author = 'Ahsan Yusob'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ["breathe"]
+extensions = ["breathe", "sphinx.ext.autodoc", "sphinx.ext.napoleon"]
 
 # Path to Doxygen XML
 breathe_projects = {
@@ -31,13 +34,10 @@ exclude_patterns = []
 
 # Use the Read the Docs theme
 html_theme = "sphinx_rtd_theme"
-html_baseurl = "https://ahsanyusob.github.io/cpp_sphinx_test/"
 
 # Optional: theme-specific options
 html_theme_options = {
     'collapse_navigation': False,  # keep sidebar sections expanded
     'navigation_depth': 4,         # how many levels in the sidebar
-    "canonical_url": "https://ahsanyusob.github.io/cpp_sphinx_test/",
-    "display_version": True,
 }
 html_static_path = ['_static']
