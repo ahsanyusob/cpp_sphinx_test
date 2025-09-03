@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.1" xml:lang="en-US">
+  <compound refid="classCar" kind="class"><name>Car</name>
+    <member refid="classCar_1a6abd4d3e8571c2f659ab932110a46141" kind="variable"><name>brand_</name></member>
+    <member refid="classCar_1adb2ec6f42c39288bd34bb2b45218821e" kind="variable"><name>year_</name></member>
+    <member refid="classCar_1a62fa56a81e75496f351f32b4cba9c3b4" kind="variable"><name>running_</name></member>
+    <member refid="classCar_1aea47781908d2e863a7852fd2c3ac5d6f" kind="function"><name>Car</name></member>
+    <member refid="classCar_1a9da895248d31686b8e0b793b69efe211" kind="function"><name>startEngine</name></member>
+    <member refid="classCar_1afcee38b14b8835e06d944ffdf75a0277" kind="function"><name>stopEngine</name></member>
+    <member refid="classCar_1af9a9ee791ab95e45f85eee9fa0f3bc92" kind="function"><name>getBrand</name></member>
+  </compound>
+  <compound refid="Car_8h" kind="file"><name>Car.h</name>
+  </compound>
+  <compound refid="Car_8cpp" kind="file"><name>Car.cpp</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/adm_ahsan/dev_ws/github_ws/cpp_sphinx_test/my_project/include</name>
+  </compound>
+  <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir"><name>/home/adm_ahsan/dev_ws/github_ws/cpp_sphinx_test/my_project/src</name>
+  </compound>
+</doxygenindex>

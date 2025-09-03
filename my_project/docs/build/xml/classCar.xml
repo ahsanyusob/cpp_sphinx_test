@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classCar" kind="class" language="C++" prot="public">
+    <compoundname>Car</compoundname>
+    <includes refid="Car_8h" local="no">Car.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classCar_1a6abd4d3e8571c2f659ab932110a46141" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Car::brand_</definition>
+        <argsstring></argsstring>
+        <name>brand_</name>
+        <briefdescription>
+<para>Brand of the car. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/adm_ahsan/dev_ws/github_ws/cpp_sphinx_test/my_project/include/Car.h" line="40" column="17" bodyfile="/home/adm_ahsan/dev_ws/github_ws/cpp_sphinx_test/my_project/include/Car.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCar_1adb2ec6f42c39288bd34bb2b45218821e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Car::year_</definition>
+        <argsstring></argsstring>
+        <name>year_</name>
+        <briefdescription>
+<para>Year of manufacture. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/adm_ahsan/dev_ws/github_ws/cpp_sphinx_test/my_project/include/Car.h" line="41" column="9" bodyfile="/home/adm_ahsan/dev_ws/github_ws/cpp_sphinx_test/my_project/include/Car.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCar_1a62fa56a81e75496f351f32b4cba9c3b4" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Car::running_</definition>
+        <argsstring></argsstring>
+        <name>running_</name>
+        <briefdescription>
+<para>Engine status. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/adm_ahsan/dev_ws/github_ws/cpp_sphinx_test/my_project/include/Car.h" line="42" column="10" bodyfile="/home/adm_ahsan/dev_ws/github_ws/cpp_sphinx_test/my_project/include/Car.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classCar_1aea47781908d2e863a7852fd2c3ac5d6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Car::Car</definition>
+        <argsstring>(const std::string &amp;brand, int year)</argsstring>
+        <name>Car</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>brand</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>year</declname>
+        </param>
+        <briefdescription>
+<para>Construct a new <ref refid="classCar" kindref="compound">Car</ref> object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>brand</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="classCar" kindref="compound">Car</ref> brand name. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>year</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Year of manufacture. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/adm_ahsan/dev_ws/github_ws/cpp_sphinx_test/my_project/include/Car.h" line="25" column="5" bodyfile="/home/adm_ahsan/dev_ws/github_ws/cpp_sphinx_test/my_project/src/Car.cpp" bodystart="9" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classCar_1a9da895248d31686b8e0b793b69efe211" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Car::startEngine</definition>
+        <argsstring>()</argsstring>
+        <name>startEngine</name>
+        <briefdescription>
+<para>Start the engine. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>true if started successfully, false otherwise. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/adm_ahsan/dev_ws/github_ws/cpp_sphinx_test/my_project/include/Car.h" line="31" column="10" bodyfile="/home/adm_ahsan/dev_ws/github_ws/cpp_sphinx_test/my_project/src/Car.cpp" bodystart="16" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classCar_1afcee38b14b8835e06d944ffdf75a0277" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Car::stopEngine</definition>
+        <argsstring>()</argsstring>
+        <name>stopEngine</name>
+        <briefdescription>
+<para>Stop the engine. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/adm_ahsan/dev_ws/github_ws/cpp_sphinx_test/my_project/include/Car.h" line="34" column="10" bodyfile="/home/adm_ahsan/dev_ws/github_ws/cpp_sphinx_test/my_project/src/Car.cpp" bodystart="28" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classCar_1af9a9ee791ab95e45f85eee9fa0f3bc92" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string Car::getBrand</definition>
+        <argsstring>() const</argsstring>
+        <name>getBrand</name>
+        <briefdescription>
+<para>Get the car brand. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>std::string <ref refid="classCar" kindref="compound">Car</ref> brand. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/adm_ahsan/dev_ws/github_ws/cpp_sphinx_test/my_project/include/Car.h" line="37" column="17" bodyfile="/home/adm_ahsan/dev_ws/github_ws/cpp_sphinx_test/my_project/src/Car.cpp" bodystart="39" bodyend="41"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A simple <ref refid="classCar" kindref="compound">Car</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Demonstrates how to generate docs with Doxygen + Sphinx + Breathe. </para>
+    </detaileddescription>
+    <location file="/home/adm_ahsan/dev_ws/github_ws/cpp_sphinx_test/my_project/include/Car.h" line="18" column="1" bodyfile="/home/adm_ahsan/dev_ws/github_ws/cpp_sphinx_test/my_project/include/Car.h" bodystart="18" bodyend="43"/>
+    <listofallmembers>
+      <member refid="classCar_1a6abd4d3e8571c2f659ab932110a46141" prot="private" virt="non-virtual"><scope>Car</scope><name>brand_</name></member>
+      <member refid="classCar_1aea47781908d2e863a7852fd2c3ac5d6f" prot="public" virt="non-virtual"><scope>Car</scope><name>Car</name></member>
+      <member refid="classCar_1af9a9ee791ab95e45f85eee9fa0f3bc92" prot="public" virt="non-virtual"><scope>Car</scope><name>getBrand</name></member>
+      <member refid="classCar_1a62fa56a81e75496f351f32b4cba9c3b4" prot="private" virt="non-virtual"><scope>Car</scope><name>running_</name></member>
+      <member refid="classCar_1a9da895248d31686b8e0b793b69efe211" prot="public" virt="non-virtual"><scope>Car</scope><name>startEngine</name></member>
+      <member refid="classCar_1afcee38b14b8835e06d944ffdf75a0277" prot="public" virt="non-virtual"><scope>Car</scope><name>stopEngine</name></member>
+      <member refid="classCar_1adb2ec6f42c39288bd34bb2b45218821e" prot="private" virt="non-virtual"><scope>Car</scope><name>year_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
