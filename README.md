@@ -163,7 +163,9 @@ Refs:
 
 ---
 
-## 4) Deploy to GitHub Pages
+## 4) Deploy to GitHub Pages 
+
+(Example: Creating orphaned, single commit gh-pages branch)
 
 1. Switch/create `gh-pages` branch:
 
@@ -174,8 +176,10 @@ git checkout --orphan gh-pages
 2. Remove old files and copy HTML:
 
 ```bash
-rm -rf ./*
-cp -r docs/build/html/* .
+#following 3 steps will copy built HTML to repo /root and delete everything else
+# cp -r <path/to/repo/docs/build/html/*> <path/to/tmp>
+# rm -rf <path/to/repo/*>
+# mv <path/to/tmp> <path/to/repo>
 touch .nojekyll   # critical: jekyll (default) ignores folders starting with _
 git add .
 git commit -m "Deploy docs"
